@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora&display=swap">
+    <title>À propos</title>
+</head>
+<body>
+    <div class="header">
+        <a href="home.htm">
+            <img src="./Header/Logo Laurine.png">
+        </a>
+        <ul>
+            <a href="home.htm"><li>Acceuil</li></a>
+            <a href="performances.htm"><li>Prestations</li></a>
+            <a href="achievement.htm"><li>Réalisations</li></a>
+            <a href="about.htm"><li>À propos</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </div>
+
+    <nav>
+        <a href="home.htm">
+            <img src="./Header/Logo Laurine.png">
+        </a>
+        <ul>
+            <a href="home.htm"><li>Acceuil</li></a>
+            <a href="performances.htm"><li>Prestations</li></a>
+            <a href="achievement.htm"><li>Réalisations</li></a>
+            <a href="about.htm"><li>À propos</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </nav>
+
+    <h1 style="margin-top: 45px">À propos</h1>
+
+    <div class="about">
+        <img src="./About/LL Photo.jpg">
+        <p>Après des études dans la finance, j'ai décidé d'enfin me tourner vers le domaine qui me plaît réellement : La décoration !<br><br>
+            Pourquoi la décoration ? Parce que je pense que tout le monde devrait se sentir bien chez soi et l'on se sent toujours mieux dans un environnement qui nous plaît et nous correspond parfaitement. Je souhaite mettre à profit mon expertise et mon expérience dans ce domaine pour aider les personnes qui n'ont pas forcément la chance de réussir à se projeter dans une pièce vide ou entièrement à repenser et aider à mener à bien tous les projets de décoration d'intérieur en fonction des besoins et des envies de chacun que se soit un simple conseil de couleur ou la gestion complète des artisans.</p>
+    </div>
+
+    <div class="separator"></div>
+
+    <div id="contact">
+        <h1>Contactez-nous</h1>
+        <form>
+            <div>
+                <label for="nom">Nom (requis)</label>
+                <input type="text" id="nom" name="nom" placeholder="Jean Martin" required>
+            </div>
+            <div>
+                <label for="email">E-mail (requis)</label>
+                <input type="email" id="email" name="email" placeholder="jean.martin@exemple.com" required>
+            </div>
+            <div>
+                <label for="tel">Téléphone (requis)</label>
+                <input type="tel" id="tel" name="tel" placeholder="01 23 45 67 89" required>
+            </div>
+            <div>
+                <label for="codepostal">Code postal </label>
+                <input type="text" id="codepostal" name="codepostal" placeholder="75000">
+            </div>
+            <div>
+                <label for="message">Message (requis)</label>
+                <textarea id="message" name="message" placeholder="Veuillez saisir un message" required></textarea>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="CGV" required>
+                    J'autorise Laurine Llinares à me contacter par e-mail ou par téléphone pour répondre à ma demande de projet et pour m'envoyer des astuces, offres et services similaires.
+                </label>
+            </div>
+            <button type="submit">Soumettre</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div>
+            <img src="./Footer/marker.png" alt="marker" class="marker">
+            <span>7 rue de paradis, 21580 COURLON</span>
+        </div>
+        <div>
+            <img src="./Footer/phone.png" alt="phone" class="phone">
+            <span>06 40 78 27 59</span>
+        </div>
+        <div>
+            <img src="./Footer/mail.png" alt="mail" class="mail">
+            <span>laurine.llinares@gmail.com</span>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
